@@ -1,0 +1,643 @@
+/**
+*
+* @project    Spread Courier
+* @Author     Elmo Wu <hello@xuedesign.tw>
+* @copyright  2016 xuedesign studio
+* @version    v1 - 201605
+*
+*========================
+* 1. 通用設定
+* 2. 全站結構
+* 3. 頁首(LOGO+主選單)
+* 4. 主視覺
+* 5. 首頁內容
+* 6. 版權列
+* 7. 內頁側邊攔
+* 8. 內頁內容
+* 9. 返回頂端
+*========================
+**/
+
+/*
+========================
+通用設定
+========================
+*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+
+body{
+	margin: 0;
+	padding:0;
+	/*background: url(../images/bg-site.jpg) top center fixed no-repeat;*/
+	font-family: "Roboto", sans-serif;
+	font-size:100%;
+    font-weight: 400;
+	line-height:1.5em;
+    color: #373f57}
+a:link {text-decoration:none; color:#77181c}
+a:visited {text-decoration:none; color:#8c8c8c}
+a:hover {text-decoration:underline; color:#F50}
+form{margin:0; padding:0}
+image{border:0}
+::selection { background: #7d3a3d; color: #fff}
+::-moz-selection { background: #7d3a3d; color: #fff}
+img::selection { background: transparent}
+img::-moz-selection { background: transparent}
+.clean{ clear:both}
+.hidden{ display:none}
+
+/*
+========================
+全站結構
+========================
+*/
+#wrap,
+header,
+#banner,
+#banner-nav,
+#sub-banner,
+footer{
+    display: block;
+    width: 100%;
+    min-width: 1240px}
+header{
+    height: 99px;
+    background: url(../images/bg_header.png) repeat-x}
+#box-top,
+#box-down,
+#box-slider,
+#services,
+#banner-item,
+#container{
+    display: block;
+    width: 1240px;
+    margin: 0 auto}
+footer{
+    height: 123px;
+    background: url(../images/bg_footer.png) repeat-x}
+
+
+/*
+========================
+頁首(LOGO+主選單)
+========================
+*/
+h1 a{
+    display: block;
+    float: left;
+    margin-top: 20px;
+    width: 15%;
+    height: 63px;
+    background: url(../images/pic_logo.png) no-repeat;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden}
+#main-nav{
+    display: block;
+    float: right;
+    position: relative;
+    width: 85%;
+    margin-top: 35px}
+#main-nav ul{
+    display: block;
+    position: absolute;
+    top:0;
+    right:40px}
+#main-nav li{
+    display: inline-block;
+    position:relative;
+    float:left;
+    height: 52px;
+    margin: 0 3px 0 10px;
+    font-size: 1.063em;
+    line-height: 52px;
+    text-align: center}
+#main-nav li span{ padding-left: 15px}
+#main-nav li.long{ width: 196px}
+#main-nav li a{ 
+    color: #787c81; 
+    text-decoration: none}
+#main-nav li a:hover{ 
+    color: #787c81/*#2A822B*/;
+    font-weight: normal;
+    text-decoration: none}
+#main-nav li ul{ display: none}
+#main-nav li:hover ul{display: block}
+#main-nav li li{
+    width: 210px;
+    height: 52px}
+#main-nav li:hover li a,
+#main-nav li.iehover li a{
+    display: block;
+    float: none;
+    position: absolute;
+    top:49px;
+    right: -35px;
+    z-index: 1000;
+    width: 210px;
+    height: 52px;
+    padding: 0;
+	background: rgba(236,125,128,.9);
+    font-size: .875em;
+    line-height: 52px;
+    color: #fff;
+    border-bottom: 1px dashed #fff}
+#main-nav li:hover li .linesmall,
+#main-nav li.iehover li .linesmall{ line-height: 25px}
+#main-nav li:hover li a:hover,
+#main-nav li:hover li:hover a,
+#main-nav li.iehover li a:hover,
+#main-nav li.iehover li.iehover a {
+    font-weight: normal;
+    color: #fff;
+	background: rgb(177,110,111)}
+#main-nav li li.subtitle a,
+#main-nav li li.subtitle a:hover{
+    display: block;
+    width: 210px;
+	float: none;
+    padding: 0;
+    font-size: .938em;
+    font-weight: bold;
+    color: #fff;
+    background: rgb(140, 172, 109)}
+.underline {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden}
+.underline:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: rgba(200,0,63,0.9);
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out}
+.underline:hover:before, 
+.underline:focus:before, 
+.underline:active:before {
+  left: 0;
+  right: 0}
+
+
+/*
+========================
+主視覺
+========================
+*/
+#banner{
+    height: 379px;
+    background: url(../images/bg_banner.jpg) top center no-repeat}
+#banner-nav{
+    height: 42px;
+    background: url(../images/bg_banner-nav.png) repeat-x}
+#sub-banner{
+    background:rgb(235,235,235)}
+#banner-item{
+    /*height: 322px;*/
+    padding: 16px;
+    background: rgb(179,112,113)}
+#banner-main{
+    display: block;
+    width: 100%}
+#banner-text{
+    display: block;
+    float: left;
+    width: 31%/*383px*/;
+    height: 290px;
+    background: url(../images/bg_pagetitle.png) no-repeat;
+    padding: 100px 15px 0 15px}
+#banner-text h2{
+    font-size: 2.5em;
+    line-height: 1em;
+    font-weight: normal;
+    color: rgb(90,41,41);
+    letter-spacing: -1px;
+    text-shadow: 1px 1px 5px #fff;
+    padding-bottom: 5px}
+#banner-text p{
+    font-size: .938em;
+    line-height: 1.5em;
+    color: rgb(204,138,140); 
+    text-shadow: 1px 1px 5px #fff;}
+#banner-pic{
+    display: block;
+    float: right;
+    width: 69%/*825px*/;
+    height: 290px}
+.banner-01{ 
+    background: url(../images/pic_banner-01.jpg) no-repeat}
+.banner-02{
+    background: url(../images/pic_banner-02.jpg) no-repeat}
+.banner-03{
+    background: url(../images/pic_banner-03.jpg) no-repeat}
+.banner-04{
+    background: url(../images/pic_banner-04.jpg) no-repeat}
+.banner-05{
+    background: url(../images/pic_banner-05.jpg) no-repeat}
+.banner-06{
+    background: url(../images/pic_banner-06.jpg) no-repeat}
+.banner-07{
+    background: url(../images/pic_banner-07.jpg) no-repeat}
+.banner-08{
+    background: url(../images/pic_banner-08.jpg) no-repeat}
+.banner-09{
+    background: url(../images/pic_banner-09.jpg) no-repeat}
+.banner-10{
+    background: url(../images/pic_banner-10.jpg) no-repeat}
+
+/*
+========================
+首頁內容
+========================
+*/
+#services{
+    padding: 65px 0 75px 0;
+    text-align: center}
+#services h3{
+    font-size: 2.813em;
+    font-weight: normal;
+    line-height: 1.5em;
+    color: rgb(119,24,28)}
+#service-item{
+    display: block;
+    width: 100%;
+    margin: 46px auto 30px auto;
+    padding-left: 49px}
+#service-item li a{
+    display: block;
+    float: left;
+    vertical-align: top;
+    color: #373f57}
+#service-item li a:hover{
+    color: #77181c;
+    text-decoration: none}
+.serviceitem-01,
+.serviceitem-02,
+.serviceitem-04{
+    width: 161px}
+.serviceitem-03{
+    width: 255px}
+.serviceitem-05{
+    width: 220px}
+.serviceitem-01{ margin: 0 50px 0 24px}
+.serviceitem-02{ margin: 0 15px 0 24px}
+.serviceitem-03{ margin: 0 20px}
+.serviceitem-04{ margin: 0 20px}
+.serviceitem-05{ margin: 0 20px}
+.serviceitem-01>span,
+.serviceitem-01:hover>span,
+.serviceitem-02>span,
+.serviceitem-02:hover>span,
+.serviceitem-03>span,
+.serviceitem-03:hover>span,
+.serviceitem-04>span,
+.serviceitem-04:hover>span,
+.serviceitem-05>span,
+.serviceitem-05:hover>span{
+    display: block;
+    width: 161px;
+    height: 161px;
+    margin: 0 auto;
+    background: url(../images/icon_service-item.png) no-repeat;
+    margin-bottom: 10px}
+.serviceitem-01>span{
+    background-position: 0 0}
+.serviceitem-01:hover>span{
+    background-position: 0 -161px}
+.serviceitem-02>span{
+    background-position: -161px 0}
+.serviceitem-02:hover>span{
+    background-position: -161px -161px}
+.serviceitem-03>span{
+    background-position: -322px 0}
+.serviceitem-03:hover>span{
+    background-position: -322px -161px}
+.serviceitem-04>span{
+    background-position: -483px 0}
+.serviceitem-04:hover>span{
+    background-position: -483px -161px}
+.serviceitem-05>span{
+    background-position: -644px 0}
+.serviceitem-05:hover>span{
+    background-position: -644px -161px}
+
+.float {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out}
+.float:hover, 
+.float:focus, 
+.float:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px)}
+
+/*
+========================
+版權列
+========================
+*/
+#box-down h3{
+    display: block;
+    float: left;
+    width: 15%;
+    height: 123px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    background: url(../images/pic_logo-s.png) 40px 55px no-repeat}
+#foot-contact{
+    display: block;
+    float: right;
+    width: 85%;
+    padding-top: 45px;
+    font-size: .938wm;
+    line-height: 1.5em;
+    color: #c2cded}
+#foot-contact li{
+    display: inline}
+#foot-contact a,
+#foot-contact a:visited{
+    color: #c2cded;
+    margin: 0 8px}
+#foot-contact a:hover{
+    color: #f50}
+#foot-contact li:first-child>a { margin-left: 0}
+
+/*
+========================
+內頁側邊攔
+========================
+*/
+#container{
+    min-height: 364px;
+    background: url(../images/bg_container.png) repeat-y}
+#subnav{
+    display: block;
+    float: left;
+    width: 24%;
+    padding: 20px 0 0 41px}
+#subnav h3{
+    display: block;
+    width: 185px;
+    height: 76px;
+    background: url(../images/bg_subnav-title.png) no-repeat;
+    text-indent: 100%;
+    white-space: normal;
+    overflow: hidden}
+#subnav ul{
+    display: block;
+    width: 180px}
+#subnav li{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: .938em;
+    line-height: 1.5em;
+    padding: 8px 0;
+    border-bottom: 2px solid #e4d1d2}
+#subnav li a{
+    color: #6d6c6c;
+    text-decoration: none}
+#subnav li a:hover{
+    color: #fff;
+    text-decoration: none}
+#subnav .btn_contact{
+    display: block;
+    width: 185px;
+    height: 201px;
+    background: url(../images/pic_contact.png) no-repeat;
+    text-indent: 100%;
+    white-space: normal;
+    overflow: hidden;
+    margin: 18px 0 80px}
+.bounce-to-right {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  padding: 7px 15px}
+.bounce-to-right:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #904447;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;}
+.bounce-to-right:hover, 
+.bounce-to-right:focus, 
+.bounce-to-right:active {
+  color: white}
+.bounce-to-right:hover:before,
+.bounce-to-right:focus:before, 
+.bounce-to-right:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66)}
+
+/*
+========================
+內頁內容
+========================
+*/
+#main-content{
+    display: block;
+    position: relative;
+    float: right;
+    width: 76%; 
+    padding: 20px;
+    margin-bottom: 30px}
+.watermark{
+    background: url(../images/bg_logo.png) bottom right no-repeat}
+.page-article{
+    padding-bottom: 20px}
+#bar-cookie{
+    text-align: right;
+    font-size: .813em;
+    line-height: 1.5em;
+    color: #373f57;
+    margin-bottom: 30px}
+#bar-cookie span{
+    display: inline-block;
+    width: 20px;
+    height: 12px;
+    background: url(../images/icon_cookie.png) 0 2px no-repeat;
+    margin-right: 6px}
+#bar-cookie a{
+    color: #373f57;
+    text-decoration: none}
+#bar-cookie a:hover{
+    color: #f50;
+    text-decoration: underline}
+#main-content h3{
+    font-size: 1.75em;
+    line-height: 2.625em;
+    font-weight: normal;
+    color: #77181c}
+#main-content h4{
+    font-size: 1.125em;
+    line-height: 2.313em;
+    color: #77181c}
+#main-content p{
+    font-size: .938em;
+    line-height: 1.5em;
+    padding-bottom: 20px}
+#main-content ul{
+    display: block;
+    padding: 10px 0 20px 45px}
+#main-content li,
+#box-links li{
+    font-size: .938em;
+    line-height: 1.5em;
+    font-weight: normal;
+    list-style-image:url(../images/icon_list.png);
+    border-bottom: 1px dashed #d2d3d7;
+    padding: 10px 0}
+.comingsoon{
+    display: block;
+    margin: 60px auto}
+#box-links{
+    display: block;
+    width: 832px;
+    height: 359px;
+    background: url(../images/bg_links.png) no-repeat;
+    margin: 35px auto;
+    padding: 50px 75px}
+#box-links ul{
+    display: block;
+    padding: 0;
+    background: url(../images/bg_logo.png) bottom right no-repeat}
+#box-links li{ padding: 14px 0}
+#box-links a{
+    font-weight: bold;
+    color: #77181c;
+    text-decoration: none}
+#box-links a:hover{
+    color: #f50;
+    text-decoration: none}
+.page-note{
+    display: block;
+    width: 80%;
+    height: 150px;
+    margin: 20px auto;
+    padding: 30px 40px;
+    font-style: italic;
+    font-weight: bold;
+    background: url(../images/icon_dot-01.png) top left no-repeat, url(../images/icon_dot-02.png) bottom right no-repeat}
+.box-pageleft{
+    display: block;
+    float: left;
+    width: 50%;
+    padding-right: 20px}
+.box-pageright{
+    display: block;
+    float: right;
+    width: 50%;
+    text-align: center}
+.box-pageright span{
+    font-size: .813em}
+<<<<<<< HEAD
+.table-head{
+    display: block;
+    width: 80%;
+    margin: 0;
+    padding: 10px 15px;
+    font-size: 1.125em;
+    line-height: 1.5em;
+    color: #fff;
+    text-align: center;
+    background: #904447}
+.mytable{
+    width: 80%;
+    border-spacing: 1px}
+.mytable th{
+    padding: 5px 0;
+    text-align: center;
+    background: #e4d1d2}
+.mytable td{
+    text-align: center;
+    vertical-align: middle;
+    background: #eeecec;
+    border: 1px solid #FFF}
+=======
+>>>>>>> 07add7aa1d660a4203fc1bf1279e4b0082254b61
+
+/*
+========================
+返回頂端
+========================
+*/
+#toTop {
+	display:none;
+	text-decoration:none;
+	position:fixed;
+	bottom:10px;
+	right:10px;
+	overflow:hidden;
+	width:51px;
+	height:51px;
+	border:none;
+	text-indent:-999px;
+	background:url(../images/ui.totop.png) no-repeat left top}
+#toTopHover {
+	background:url(../images/ui.totop.png) no-repeat left -51px;
+	width:51px;
+	height:51px;
+	display:block;
+	overflow:hidden;
+	float:left;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0)}
+#toTop:active, #toTop:focus {
+	outline:none;}
