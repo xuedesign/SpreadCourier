@@ -18,7 +18,7 @@
 <title>Contact│SpreadCourier</title>
 <link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="css/xuedesign_201605.css?20160527"/>
-<link rel="stylesheet" href="css/flexslider.css"/>
+<link rel="stylesheet" href="css/jquery.fancybox.css">
 <link rel="stylesheet" href="css/xueresponsive.css?20160527"/>
 <link rel="stylesheet" href="css/animate.css"/>
 <link rel="stylesheet" href="css/jquery.mmenu.all.css"/>
@@ -88,8 +88,117 @@
                <span></span><a href="index.html">Home</a> > Contact Us
            </div>
            <h3>Contact Us</h3>
-           
-           
+            <div id="world-map">
+                <a class="fancybox" href="#area-01" title="OTHER"> 
+                    <div class="countryname country-other"><h5>OTHER</h5></div>
+                    <div class="mappot pot-other"></div>
+                    <div class="mapline line-other"></div></a>
+                
+                <a class="fancybox" href="#area-02" title="USA"> 
+                    <div class="countryname country-usa"><h5>USA</h5></div>
+                    <div class="mappot pot-usa"></div>
+                    <div class="mapline line-usa"></div></a>
+                
+                <a class="fancybox" href="#area-03" title="EURPO"> 
+                    <div class="countryname country-eurpo"><h5>EURPO</h5></div>
+                    <div class="mappot pot-eurpo"></div>
+                    <div class="mapline line-eurpo"></div></a>
+                
+                <a class="fancybox" href="#area-04" title="ASIA (China, Hong Kong, Singapore, India)"> 
+                    <div class="countryname country-asia-01">
+                      <h5>ASIA</h5>
+                      <ul>
+                          <li>- China</li>
+                          <li>- Hong Kong</li>
+                          <li>- Singapore</li>
+                          <li>- India</li>
+                      </ul>
+                      </div>
+                    <div class="mappot pot-asia-01"></div>
+                    <div class="mapline line-asia-01"></div></a>
+                
+                <a class="fancybox" href="#area-05" title="ASIA (Taiwan, Japan, Korea)">   
+                    <div class="countryname country-asia-02">
+                        <h5>ASIA</h5>
+                          <ul>
+                              <li>- Taiwan</li>
+                              <li>- Japan</li>
+                              <li>- Korea</li>
+                          </ul>
+                          </div>
+                        <div class="mappot pot-asia-02"></div>
+                        <div class="mapline line-asia-02"></div></a>      
+            </div>
+            <div id="area-01" class="box_customer">
+                <div class="flag">
+                    <img src="images/icon_Flag-global.png" alt="*">
+                </div>
+                <h6>// Customer Service</h6>
+                <div class="clean"></div>
+                <div class="customer_info">
+                    <ul>
+                        <li>E-mail: <a href="mailto:info@spreadcourier.com">info@spreadcourier.com</a></li>
+                    </ul>
+                </div></div>
+                
+            <div id="area-02" class="box_customer">
+                <div class="flag">
+                    <img src="images/icon_Flag-United-States.png" alt="*">
+                </div>
+                <h6>// Customer Service</h6>
+                <div class="clean"></div>
+                <div class="customer_info">
+                    <ul>
+                        <li>E-mail: <a href="mailto:europe@spreadcouier.com">europe@spreadcouier.com</a></li>
+                    </ul>
+                </div></div>
+                
+            <div id="area-03" class="box_customer">
+                <div class="flag">
+                    <img src="images/icon_Flag-European.png" alt="*">
+                </div>
+                <h6>// Customer Service</h6>
+                <div class="clean"></div>
+                <div class="customer_info">
+                    <ul>
+                        <li>E-mail:<a href="mailto:info@spreadcourier.com">info@spreadcourier.com</a></li>
+                    </ul>
+                </div></div>
+                
+            <div id="area-04" class="box_customer">
+                <div class="flag">
+                    <img src="images/icon_Flag-China.png" alt="*">
+                    <img src="images/icon_Flag-Hong-Kong.png" alt="*">
+                    <img src="images/icon_Flag-Singapore.png" alt="*">
+                    <img src="images/icon_Flag-India.png" alt="*">
+                </div>
+                <h6>// Customer Service</h6>
+                <div class="clean"></div>
+                <div class="customer_info">
+                    <ul>
+                        <li>SHA Office</li>
+                        <li>E-mail: <a href="mailto:Jozey@spreadcourier.com">Jozey@spreadcourier.com</a></li>
+                    </ul>
+                </div></div>
+                
+            <div id="area-05" class="box_customer">
+                <div class="flag">
+                    <img src="images/icon_Flag-Taiwan.png" alt="*"> 
+                    <img src="images/icon_Flag-Japan.png" alt="*">
+                    <img src="images/icon_Flag-Korea.png" alt="*"> 
+                </div>
+                <h6>// Customer Service</h6>
+                <div class="clean"></div>
+                <div class="customer_info">
+                    <ul>
+                        <li>TPE Office: <br>NO.11, REN AI 2ND ST., DAYUAN DIST., TAOYUAN CITY 337, TAIWAN (R.O.C.)</li>
+                        <li>Tel: 886-3-3933076</li>
+                        <li>Fax: 886-3-3933092</li>
+                        <li>Cell Phone: +886-921-597081</li>
+                        <li>E-mail: <a href="mailto:kevin@spreadcourier.com ">kevin@spreadcourier.com </a><br>
+                        <span><a href="mailto:Kevin.lai@spreadcourier.com">Kevin.lai@spreadcourier.com</a></span></li>
+                    </ul>
+                </div></div> 
         </div>
         <br class="clean">
     </div>
@@ -148,6 +257,10 @@
     });   
 </script>
 <script src="script/jquery.ui.totop.js"></script>
+<script src="script/jquery.fancybox.pack.js"></script>
+<script>
+$(document).ready(function(){$(".fancybox").fancybox(),$(".fancybox-effects-a").fancybox({helpers:{title:{type:"outside"},overlay:{speedOut:0}}}),$(".fancybox-effects-b").fancybox({openEffect:"none",closeEffect:"none",helpers:{title:{type:"over"}}}),$(".fancybox-effects-c").fancybox({wrapCSS:"fancybox-custom",closeClick:!0,openEffect:"none",helpers:{title:{type:"inside"},overlay:{css:{background:"rgba(238,238,238,0.85)"}}}}),$(".fancybox-effects-d").fancybox({padding:0,openEffect:"elastic",openSpeed:150,closeEffect:"elastic",closeSpeed:150,closeClick:!0,helpers:{overlay:null}}),$(".fancybox-buttons").fancybox({openEffect:"none",closeEffect:"none",prevEffect:"none",nextEffect:"none",closeBtn:!1,helpers:{title:{type:"inside"},buttons:{}},afterLoad:function(){this.title="Image "+(this.index+1)+" of "+this.group.length+(this.title?" - "+this.title:"")}}),$("#fancybox-manual-a").click(function(){$.fancybox.open("1_b.jpg")}),$("#fancybox-manual-b").click(function(){$.fancybox.open({href:"iframe.html",type:"iframe",padding:5})}),$("#fancybox-manual-c").click(function(){$.fancybox.open([{href:"1_b.jpg",title:"My title"},{href:"2_b.jpg",title:"2nd title"},{href:"3_b.jpg"}],{helpers:{thumbs:{width:75,height:50}}})})}); 
+</script>
 <script src="script/website.js"></script>
 <script src="script/jquery.retina.js"></script>
 <script src="script/jquery.mmenu.min.all.js"></script>

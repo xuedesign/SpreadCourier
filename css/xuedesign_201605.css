@@ -506,7 +506,7 @@ h1 a{
     font-size: .813em;
     line-height: 1.5em;
     color: #373f57;
-    margin-bottom: 30px}
+    margin-bottom: 10px}
 #bar-cookie span{
     display: inline-block;
     width: 20px;
@@ -608,6 +608,154 @@ h1 a{
     vertical-align: middle;
     background: #eeecec;
     border: 1px solid #FFF}
+#world-map{
+    display: block;
+    position: relative;
+    width: 894px;
+    height: 457px;
+    margin: 110px auto 0 auto;
+    background: url(../images/pic_worldmap.png) no-repeat}
+.mapline{
+    display: block;
+    position: absolute;
+    width: 21px}
+.line-other{
+    top: -35px;
+    left: 34px;
+    height: 26px;
+    background: url(../images/line-other.png) no-repeat}
+.line-usa{
+    top: 32px;
+    left: 154px;
+    height: 186px;
+    background: url(../images/line-usa.png) no-repeat}
+.line-eurpo{
+    top: 6px;
+    left: 447px;
+    height: 186px;
+    background: url(../images/line-eurpo.png) no-repeat}
+.line-asia-01{
+    top: -26px;
+    right: 205px;
+    height: 256px;
+    background: url(../images/line-asia-01.png) no-repeat}
+.line-asia-02{
+    top: 43px;
+    right: 113px;
+    height: 186px;
+    background: url(../images/line-asia-02.png) no-repeat}
+
+#world-map .countryname{
+    display: block;
+    position: absolute}
+#world-map .countryname h5{
+    font-size: 1.125em;
+    line-height: 1.5em;
+    color: #77181c}
+#world-map .countryname ul{
+    padding: 0;
+    margin: 0}
+#world-map .countryname li{
+    font-size: .938em;
+    line-height: .2em;
+    color: #77181c;
+    list-style: none;
+    border-bottom: none}
+#world-map .country-other{
+    top:-58px;
+    left: 64px}
+#world-map .country-usa{
+    top:-20px;
+    left: 150px}
+#world-map .country-eurpo{
+    top:-35px;
+    left: 429px}
+#world-map .country-asia-01{
+    top:-70px;
+    right: 240px;
+    text-align: right}
+#world-map .country-asia-02{
+    top:-60px;
+    right: 80px}
+
+.mappot{
+    display: block;
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    border-radius:99em;
+    line-height: 42px;
+    text-indent: 100%;
+    white-space: normal;
+    overflow: hidden;
+    -webkit-animation-name: hvr-pulse;
+    animation-name: hvr-pulse;
+    -webkit-animation-duration: 1500ms;
+    animation-duration: 1500ms;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite}
+.pot-other{
+    top:-55px;
+    left: 34px; 
+    background: #35f0ee}
+.pot-usa{
+    top: 12px;
+    left: 154px; 
+    background: #ff174e}
+.pot-eurpo{
+    top: 0;
+    left: 447px; 
+    background: #a7a2ff}
+.pot-asia-01{
+    top:-30px;
+    right: 205px; 
+    background: #fcaa29}
+.pot-asia-02{
+    top:40px;
+    right: 113px; 
+    background: #fcaa29}
+@-webkit-keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1)}
+
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9)}}
+
+@keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1)}
+
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9)}
+}
+
+.box_customer{ 
+    display: none;
+    width: 320px}
+.box_customer .flag{
+    display: block;
+    float: left;
+    margin-right: 10px}
+.box_customer img{
+    display: inline;
+    margin-right: 5px}
+.box_customer h6{
+    display: block;
+    float: left;
+    height: 32px;
+    line-height: 18px;
+    padding: 8px 0}
+.box_customer ul{}
+.box_customer li{
+    padding: 5px 0;
+    border-bottom: 1px dashed #e1e1e1}
+.box_customer span{ padding-left: 52px}
 
 /*
 ========================
