@@ -150,7 +150,134 @@ Small devices Tablets / Tablets 768
 =====================================
 */
 @media screen and (min-width:768px) and (max-width:959px){
-   
+#box-top,
+#box-down,
+#box-slider,
+#services,
+#banner-item,
+#container{
+    display: block;
+    width:95%;
+    margin: 0 auto}
+header{
+    height: 80px}    
+h1 a{
+    width: 15%;
+    height: 50px;
+    background-size: contain}
+#main-nav{
+    display: none}
+#mobile-nav{
+    display: block;
+    float: right;
+    margin: 20px 2px 0 0;
+    width: 42px;
+    height: 42px;
+    background: url(../images/btn_nav-mobile-s.png) no-repeat;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden}
+#mobile-nav:hover{
+    background: url(../images/btn_nav-mobile-s.png) 0 -42px no-repeat;}    
+    
+#banner{
+    height:95%}
+#banner-main{
+    margin-left:0}     
+.flex-direction-nav .flex-prev { display: none}
+.flex-direction-nav .flex-next { display: none}
+#banner-text{
+    padding: 70px 15px 0 15px}    
+#banner-pic{
+    background-position: right}
+#banner-pic.banner-02,
+#banner-pic.banner-05,
+#banner-pic.banner-07{ 
+    background-position:top left}
+#banner-pic.banner-04,
+#banner-pic.banner-10{ 
+    background-position:top center}
+    
+#services{
+    padding: 25px 0 40px 0;
+    text-align: center}
+#service-item{
+    width: 90%;
+    margin: 46px auto 30px auto;
+    padding-left: 100px}
+.serviceitem-01{ margin: 0 50px 40px 24px}
+.serviceitem-02{ margin: 0 15px 40px 24px}
+.serviceitem-03{ margin: 0 85px 40px 100px}
+.serviceitem-04{ margin: 0 20px 40px 20px}
+.serviceitem-05{ margin: 0 20px 40px 20px}
+footer{
+    padding-top: 20px}    
+#box-down h3{
+    float: none;
+    width: 100%;
+    height: 39px;
+    background-position: top center}
+#foot-contact{
+    float: none;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0 0 0;
+    font-size: .813em;
+    line-height: 1.55em}    
+
+#container{ background: none}
+#subnav{ display: none}
+#main-content{
+    float: none;
+    width: 95%;
+    margin: 0 auto}
+.page-note{
+    width: 95%;
+    margin: 10px auto 30px auto;}
+.box-pageleft,
+.box-pageright{
+    float: none;
+    width: 95%}
+.box-pageright img{ margin: 0 auto }
+.box-pageright span{
+    display: block;
+    width: 95%;
+    text-align: center;
+    padding-bottom: 20px}
+.table-head{
+    width: 99.9%}
+.mytable{
+    width: 100%}
+.mytable td img{
+    width: 80%;
+    height: auto}
+#box-links{
+    width: 100%;
+    height: 359px;
+    background-size: contain;
+    margin: 35px auto;
+    padding: 15px 75px}
+#world-map{ display: none}
+.box_customer{
+    display: block;
+    width: 85%;
+    margin: 0 auto 20px auto;
+    padding: 15px;
+    border-bottom: 2px solid #e1e1e1}
+#area-01 h5,
+#area-02 h5,
+#area-03 h5,
+#area-04 h5,
+#area-05 h5{ 
+    display: block;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    padding-bottom: 10px}
+.box_customer h6{
+    padding: 5px 0}    
+.customer_info li{
+    padding: 2px 0;
+    border-bottom: none}    
 }
 
 /*

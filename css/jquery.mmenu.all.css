@@ -153,7 +153,7 @@ li.mm-vertical.mm-opened > .mm-panel {
 
 .mm-listview {
   font: inherit;
-  font-size: 14px;
+  font-size: .938em /*14px*/;
   line-height: 20px; }
   .mm-listview a,
   .mm-listview a:hover {
@@ -271,25 +271,25 @@ li.mm-vertical.mm-opened > .mm-panel {
   right: 20px; }
 
 .mm-menu {
-  background: #f3f3f3;
-  color: rgba(0, 0, 0, 0.7); }
+  background: RGB(113,26,30)/*#f3f3f3*/;
+  color: rgba(256, 256, 256, .9); }
   .mm-menu .mm-navbar {
-    border-color: rgba(0, 0, 0, 0.1); }
+    border-color: rgba(256, 256, 256, 0.1); }
     .mm-menu .mm-navbar > *,
     .mm-menu .mm-navbar a {
-      color: rgba(0, 0, 0, 0.3); }
+      color: rgba(256, 256, 256, 0.7); }
     .mm-menu .mm-navbar .mm-btn:before,
     .mm-menu .mm-navbar .mm-btn:after {
-      border-color: rgba(0, 0, 0, 0.3); }
+      border-color: rgba(256, 256, 256, 0.3); }
   .mm-menu .mm-listview > li:after {
-    border-color: rgba(0, 0, 0, 0.1); }
+    border-color: rgba(256, 256, 256, 0.1); }
   .mm-menu .mm-listview > li .mm-prev:before,
   .mm-menu .mm-listview > li .mm-next:after,
   .mm-menu .mm-listview > li .mm-arrow:after {
-    border-color: rgba(0, 0, 0, 0.3); }
+    border-color: rgba(256, 256, 256, 0.8); }
   .mm-menu .mm-listview > li .mm-prev:after,
   .mm-menu .mm-listview > li .mm-next:before {
-    border-color: rgba(0, 0, 0, 0.1); }
+    border-color: rgba(256, 256, 256, 0.1); }
   .mm-menu .mm-listview > li.mm-selected > a:not(.mm-next),
   .mm-menu .mm-listview > li.mm-selected > span {
     background: rgba(255, 255, 255, 0.5); }
@@ -297,9 +297,9 @@ li.mm-vertical.mm-opened > .mm-panel {
   .mm-menu.mm-vertical .mm-listview li.mm-opened > .mm-panel,
   .mm-menu .mm-listview li.mm-opened.mm-vertical > a.mm-next,
   .mm-menu .mm-listview li.mm-opened.mm-vertical > .mm-panel {
-    background: rgba(0, 0, 0, 0.05); }
+    background: rgba(256, 256, 256, 0.05); }
   .mm-menu .mm-divider {
-    background: rgba(0, 0, 0, 0.05); }
+    background: rgba(256, 256, 256, 0.05); }
 
 /*
 	jQuery.mmenu offcanvas addon CSS
@@ -343,7 +343,7 @@ html.mm-blocking #mm-blocker {
   display: block; }
 
 .mm-menu {
-  width: 80%;
+  width: 70%/*80%*/;
   min-width: 140px;
   max-width: 440px; }
 

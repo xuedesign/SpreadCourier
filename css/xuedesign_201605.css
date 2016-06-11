@@ -194,6 +194,7 @@ h1 a{
 .underline:active:before {
   left: 0;
   right: 0}
+#mobile-nav{ display: none}
 
 
 /*
@@ -544,8 +545,8 @@ h1 a{
     line-height: 1.5em;
     font-weight: normal;
     list-style-image:url(../images/icon_list.png);
-    border-bottom: 1px dashed #d2d3d7;
-    padding: 10px 0}
+    /*border-bottom: 1px dashed #d2d3d7;*/
+    padding: 5px 0}
 .comingsoon{
     display: block;
     margin: 60px auto}
@@ -749,13 +750,13 @@ h1 a{
 .box_customer img{
     display: inline;
     margin-right: 5px}
+.box_customer h5{ display: none}
 .box_customer h6{
     display: block;
     float: left;
     height: 32px;
     line-height: 18px;
     padding: 8px 0}
-.box_customer ul{}
 .box_customer li{
     padding: 5px 0;
     border-bottom: 1px dashed #e1e1e1}
