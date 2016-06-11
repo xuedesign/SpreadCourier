@@ -3,33 +3,160 @@
 * @project    Twinble
 * @Author     Elmo Wu <hello@xuedesign.tw>
 * @copyright  2016 xuedesign studio
-* @version    v1.0 - 201605
+* @version    v1.0 - 201606
 *
 **/
 
-#mobile{ display: none}
+/*#mobile{ display: none}*/
+
 /*
-========================
-桌機
-========================
+=====================================
+Medium devices / Desktops 960
+=====================================
 */
 @media screen and (min-width:960px) and (max-width:1239px){
- 
+#box-top,
+#box-down,
+#box-slider,
+#services,
+#banner-item,
+#container{
+    display: block;
+    width:95%;
+    margin: 0 auto}
+h1 a{
+    width: 15%;
+    height: 63px;
+    background-size: contain}
+#main-nav{
+    margin-top: 30px}    
+#banner{
+    height:95%}
+#banner-main{
+    margin-left:0}    
+#services{
+    padding: 25px 0 40px 0;
+    text-align: center}    
+#service-item{
+    width: 90%;
+    margin: 46px auto 30px auto;
+    padding-left: 100px}
+.serviceitem-01{ margin: 0 50px 40px 24px}
+.serviceitem-02{ margin: 0 15px 40px 24px}
+.serviceitem-03{ margin: 0 20px 40px 20px}
+.serviceitem-04{ margin: 0 20px 40px 150px}
+.serviceitem-05{ margin: 0 20px 40px 20px}
+#box-down h3 a{
+    width: 15%;
+    height: 123px;
+    background-size: cover}
+#foot-contact{
+    padding: 55px 0 0 20px;
+    font-size: .813em}
+.flex-direction-nav .flex-prev { display: none}
+.flex-direction-nav .flex-next { display: none}
+#banner-pic{
+    background-position: center}
+#banner-pic.banner-03{ background-position:top right}    
+#container{ background: none}
+#subnav{
+    width: 23%;
+    padding: 20px 15px 0 20px}
+#main-content{
+    width: 76%;
+    min-height: 710px;
+    padding: 20px 20px 50px 41px;
+    margin: 0 0 0 0;
+    border-left: 1px solid #E0E0E0}
+.page-note{
+    width: 95%}
+.box-pageleft,
+.box-pageright{
+    float: none;
+    width: 95%}
+.box-pageright img{ margin: 0 auto }
+.box-pageright span{
+    display: block;
+    width: 95%;
+    text-align: center;
+    padding-bottom: 20px}
+.table-head{
+    width: 99.9%}
+.mytable{
+    width: 100%}
+.mytable td img{
+    width: 80%;
+    height: auto}
+#box-links{
+    width: 100%;
+    height: 359px;
+    background-size: contain;
+    margin: 35px auto;
+    padding: 15px 75px}
+#world-map{
+    width: 98%;
+    margin: 110px auto 0 auto;
+    background-size: contain}
+#world-map .country-other{
+    top:-102px;
+    left: 40px}
+#world-map .country-usa{
+    top:-65px;
+    left: 105px}
+#world-map .country-eurpo{
+    top:-100px;
+    left: 313px}
+#world-map .country-asia-01{
+    top:-100px;
+    right: 170px}
+#world-map .country-asia-02{
+    top:-35px;
+    right: 15px}
+.line-other{
+    top: -80px;
+    left: 10px}
+.line-usa{
+    top: -25px;
+    left: 110px}
+.line-eurpo{
+    top: -50px;
+    left: 330px}
+.line-asia-01{
+    top: -90px;
+    right: 140px}
+.line-asia-02{
+    top: -20px;
+    right: 80px}
+.pot-other{
+    top:-100px;
+    left: 10px}
+.pot-usa{
+    top: -40px;
+    left: 111px}
+.pot-eurpo{
+    top: -70px;
+    left: 330px}
+.pot-asia-01{
+    top:-95px;
+    right: 140px}
+.pot-asia-02{
+    top:-25px;
+    right: 80px}    
 }
 
 /*
-========================
-平板
-========================
+=====================================
+Small devices Tablets / Tablets 768
+=====================================
 */
 @media screen and (min-width:768px) and (max-width:959px){
    
 }
 
 /*
-========================
-小平板與手機之間
-========================
+=====================================
+Extra small devices / Phone 480
+=====================================
 */
 @media screen and (min-width:480px) and (max-width: 767px) {
   
@@ -37,13 +164,14 @@
 
 
 /*
-========================
-手機
-========================
+=====================================
+
+=====================================
 */
 @media screen and (max-width:479px){
 
 }
+
 
 @media screen and (-webkit-min-device-pixel-ratio: 2),
 screen and (min--moz-device-pixel-ratio: 2)

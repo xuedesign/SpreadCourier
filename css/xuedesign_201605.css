@@ -59,7 +59,7 @@ header,
 footer{
     display: block;
     width: 100%;
-    min-width: 1240px}
+    /*min-width: 1240px*/}
 header{
     height: 99px;
     background: url(../images/bg_header.png) repeat-x}
@@ -180,7 +180,7 @@ h1 a{
   z-index: -1;
   left: 50%;
   right: 50%;
-  bottom: 2px /*0*/;
+  bottom: 5px /*0*/;
   background: rgba(200,0,63,0.9);
   height: 4px;
   -webkit-transition-property: left, right;
@@ -379,7 +379,7 @@ h1 a{
     float: right;
     width: 85%;
     padding-top: 45px;
-    font-size: .938wm;
+    font-size: .938em;
     line-height: 1.5em;
     color: #c2cded}
 #foot-contact li{
@@ -611,6 +611,7 @@ h1 a{
     vertical-align: middle;
     background: #eeecec;
     border: 1px solid #FFF}
+
 #world-map{
     display: block;
     position: relative;
@@ -618,36 +619,6 @@ h1 a{
     height: 457px;
     margin: 110px auto 0 auto;
     background: url(../images/pic_worldmap.png) no-repeat}
-.mapline{
-    display: block;
-    position: absolute;
-    width: 21px}
-.line-other{
-    top: -35px;
-    left: 34px;
-    height: 26px;
-    background: url(../images/line-other.png) no-repeat}
-.line-usa{
-    top: 32px;
-    left: 154px;
-    height: 186px;
-    background: url(../images/line-usa.png) no-repeat}
-.line-eurpo{
-    top: 6px;
-    left: 447px;
-    height: 186px;
-    background: url(../images/line-eurpo.png) no-repeat}
-.line-asia-01{
-    top: -26px;
-    right: 205px;
-    height: 256px;
-    background: url(../images/line-asia-01.png) no-repeat}
-.line-asia-02{
-    top: 43px;
-    right: 113px;
-    height: 186px;
-    background: url(../images/line-asia-02.png) no-repeat}
-
 #world-map .countryname{
     display: block;
     position: absolute}
@@ -680,6 +651,36 @@ h1 a{
 #world-map .country-asia-02{
     top:-60px;
     right: 80px}
+
+.mapline{
+    display: block;
+    position: absolute;
+    width: 21px}
+.line-other{
+    top: -35px;
+    left: 34px;
+    height: 26px;
+    background: url(../images/line-other.png) no-repeat}
+.line-usa{
+    top: 32px;
+    left: 154px;
+    height: 186px;
+    background: url(../images/line-usa.png) no-repeat}
+.line-eurpo{
+    top: 6px;
+    left: 447px;
+    height: 186px;
+    background: url(../images/line-eurpo.png) no-repeat}
+.line-asia-01{
+    top: -26px;
+    right: 205px;
+    height: 256px;
+    background: url(../images/line-asia-01.png) no-repeat}
+.line-asia-02{
+    top: 43px;
+    right: 113px;
+    height: 186px;
+    background: url(../images/line-asia-02.png) no-repeat}
 
 .mappot{
     display: block;
