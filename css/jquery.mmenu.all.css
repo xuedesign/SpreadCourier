@@ -345,7 +345,7 @@ html.mm-blocking #mm-blocker {
 .mm-menu {
   width: 70%/*80%*/;
   min-width: 140px;
-  max-width: 440px; }
+  max-width: 440px;}
 
 html.mm-opening .mm-slideout {
   -webkit-transform: translate(80%, 0);
