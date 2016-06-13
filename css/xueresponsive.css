@@ -85,6 +85,7 @@ h1 a{
 .mytable td img{
     width: 80%;
     height: auto}
+#mobile-list{ display: none}    
 #box-links{
     width: 100%;
     height: 359px;
@@ -253,6 +254,7 @@ footer{
 .mytable td img{
     width: 80%;
     height: auto}
+#mobile-list{ display: none}    
 #box-links{
     width: 100%;
     height: 359px;
@@ -284,7 +286,7 @@ footer{
 
 /*
 =====================================
-Small devices / Phone 480
+Small devices / Small Tablets &　Phone
 =====================================
 */
 @media screen and (min-width:480px) and (max-width: 767px) {
@@ -303,8 +305,8 @@ Small devices / Phone 480
 header{
     height: 80px}    
 h1 a{
-    width: 15%;
-    height: 50px;
+    width: 30%;
+    height: 40px;
     background-size: contain}
 #main-nav{
     display: none}
@@ -356,7 +358,9 @@ h1 a{
     margin: 0 auto 30px auto}
     
 footer{
-    padding-top: 20px}    
+    height: 145px;
+    padding-top: 20px;
+    background: url(../images/bg_footer.png) repeat-x, RGB(55,63,87)}    
 #box-down h3{
     float: none;
     width: 100%;
@@ -400,12 +404,16 @@ footer{
 .mytable td img{
     width: 80%;
     height: auto}
+#mobile-list{ display: none}    
 #box-links{
     width: 100%;
-    height: 359px;
+    height: 500px;
+    background: url(../images/bg_links-s.png) no-repeat;
     background-size: contain;
     margin: 35px auto;
     padding: 15px 75px}
+#box-links ul{
+    background-size: contain} 
 .comingsoon{
     display: block;
     width: 100%;
@@ -437,14 +445,397 @@ footer{
 
 /*
 =====================================
-Extra small devices / Phone 320
+Extra small devices / Small Phone
 =====================================
 */
-@media screen and (max-width:479px){
+@media screen and (min-width:321px) and (max-width: 480px){
+#box-top,
+#box-down,
+#services,
+#container{
+    display: block;
+    width:95%;
+    margin: 0 auto}
+#box-slider,
+#banner-item{
+    display: block;
+    width:100%;
+    margin: 0 auto}    
+header{
+    height: 80px}    
+h1 a{
+    width: 30%;
+    height: 50px;
+    background-size: contain}
+#main-nav{
+    display: none}
+#mobile-nav{
+    display: block;
+    float: right;
+    margin: 20px 2px 0 0;
+    width: 42px;
+    height: 42px;
+    background: url(../images/btn_nav-mobile-s.png) no-repeat;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden}
+#mobile-nav:hover{
+    background: url(../images/btn_nav-mobile-s.png) 0 -42px no-repeat;}    
+    
+#banner{
+    height:100%}
+#banner-main{
+    position: relative;
+    margin-left:0}     
+.flex-direction-nav .flex-prev { display: none}
+.flex-direction-nav .flex-next { display: none}
+#banner-text{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    padding: 8px 15px 0;
+    background: rgba(0,0,0,.5)}
+#banner-text h2,
+#banner-text p{
+    color: #fff;
+    text-shadow: none}
+#banner-text h2{
+    font-size: 2em}
+#banner-text p{
+    font-size: .875em;
+    line-height: 1.2em}    
+#banner-pic{
+    width: 100%;
+    background-position: right}
+#banner-pic.banner-01,    
+#banner-pic.banner-02,
+#banner-pic.banner-05,
+#banner-pic.banner-07{ 
+    background-position:top left}
+#banner-pic.banner-08,  
+#banner-pic.banner-04,
+#banner-pic.banner-10{ 
+    background-position:top center}*/
+    
+#services{
+    padding: 0;
+    text-align: center}    
+#service-item{
+    width: 90%;
+    margin: 46px auto 30px auto;
+    padding-left: 0}
+#service-item li a{
+    display: block;
+    float: none;
+    margin: 0 auto 30px auto}
+    
+footer{
+    height: 145px;
+    padding-top: 20px;
+    background: url(../images/bg_footer.png) repeat-x, RGB(55,63,87)}    
+#box-down h3{
+    float: none;
+    width: 100%;
+    height: 39px;
+    background-position: top center}
+#foot-contact{
+    float: none;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0 0 0;
+    font-size: .813em;
+    line-height: 1.55em}
+#foot-contact a,
+#foot-contact a:visited{
+    margin: 0 3px}    
 
+#container{ background: none}
+#subnav{ display: none}
+#bar-cookie{ display: none}    
+.watermark{ background: none}        
+#main-content{
+    float: none;
+    width: 95%;
+    min-height: 340px;
+    margin: 0 auto}
+#main-content h3{
+    font-size: 1.75em;
+    line-height: 1.3em;
+    font-weight: normal;
+    color: #77181c;
+    padding-bottom: 30px}    
+.page-note{
+    width: 95%;
+    height: 370px;
+    margin: 10px auto 30px auto;}
+.box-pageleft,
+.box-pageright{
+    float: none;
+    width: 95%}
+.box-pageright img{ 
+    width: 100%;
+    margin: 0 auto }
+.box-pageright span{
+    display: block;
+    width: 95%;
+    text-align: center;
+    padding-bottom: 20px}
+.table-head,
+.mytable{
+    display: none}
+#mobile-list{ 
+    display: block}
+#mobile-list h5{
+    font-size: 1em;
+    line-height: 1.5em;
+    color: rgb(132,37,41);
+    padding-bottom: 15px}    
+#mobile-list span{ font-weight: bold}
+#mobile-list img{
+    border: 2px solid #e1e1e1}    
+    
+#box-links{
+    width: 100%;
+    height: 300px;
+    background: none/*url(../images/bg_links-xs.png) no-repeat*/;
+    /*background-size: contain;
+    margin: 35px auto;*/
+    margin: -20px auto 0 auto;
+    padding: 0 30px;
+    word-wrap: break-word;
+    word-break: break-all}
+#box-links ul{
+    background-size: contain} 
+.comingsoon{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 60px auto}    
+#world-map{ display: none}
+.box_customer{
+    display: block;
+    width: 85%;
+    margin: 0 auto 20px auto;
+    padding: 15px;
+    border-bottom: 2px solid #e1e1e1}
+#area-01 h5,
+#area-02 h5,
+#area-03 h5,
+#area-04 h5,
+#area-05 h5{ 
+    display: block;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    padding-bottom: 10px}
+.box_customer h6{
+    padding: 5px 0}    
+.customer_info li{
+    padding: 2px 0;
+    border-bottom: none}
+.box_customer span{ padding-left: 0}        
+}
+
+/*
+=====================================
+Extra small devices / old Small Phone
+=====================================
+*/
+@media screen and (min-width:1px) and (max-width:350px){
+#box-top,
+#box-down,
+#services,
+#container{
+    display: block;
+    width:95%;
+    margin: 0 auto}
+#box-slider,
+#banner-item{
+    display: block;
+    width:100%;
+    margin: 0 auto}    
+header{
+    height: 80px}    
+h1 a{
+    width: 38%;
+    height: 50px;
+    background-size: contain}
+#main-nav{
+    display: none}
+#mobile-nav{
+    display: block;
+    float: right;
+    margin: 20px 2px 0 0;
+    width: 42px;
+    height: 42px;
+    background: url(../images/btn_nav-mobile-s.png) no-repeat;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden}
+#mobile-nav:hover{
+    background: url(../images/btn_nav-mobile-s.png) 0 -42px no-repeat;}    
+    
+#banner{
+    height:100%}
+#banner-main{
+    position: relative;
+    margin-left:0}     
+.flex-direction-nav .flex-prev { display: none}
+.flex-direction-nav .flex-next { display: none}
+#banner-text{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    padding: 8px 15px 0;
+    background: rgba(0,0,0,.5)}
+#banner-text h2,
+#banner-text p{
+    color: #fff;
+    text-shadow: none}
+#banner-text h2{
+    font-size: 1.8em}
+#banner-text p{
+    font-size: .813em;
+    line-height: 1.2em}    
+#banner-pic{
+    width: 100%;
+    background-position: right}
+#banner-pic.banner-01,    
+#banner-pic.banner-02,
+#banner-pic.banner-05,
+#banner-pic.banner-07{ 
+    background-position:top left}
+#banner-pic.banner-08,  
+#banner-pic.banner-04,
+#banner-pic.banner-10{ 
+    background-position:top center}
+    
+#services{
+    padding: 20px 0 0 0;
+    text-align: center}    
+#service-item{
+    width: 90%;
+    margin: 46px auto 30px auto;
+    padding-left: 0}
+#service-item li a{
+    display: block;
+    float: none;
+    margin: 0 auto 30px auto}
+    
+footer{
+    height: 145px;
+    padding-top: 20px;
+    background: url(../images/bg_footer.png) repeat-x, RGB(55,63,87)}    
+#box-down h3{
+    float: none;
+    width: 100%;
+    height: 39px;
+    background-position: top center}
+#foot-contact{
+    float: none;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0 0 0;
+    font-size: .813em;
+    line-height: 1.55em}
+#foot-contact a,
+#foot-contact a:visited{
+    margin: 0 3px}    
+
+#container{ background: none}
+#subnav{ display: none}
+.watermark{ background: none}    
+#main-content{
+    float: none;
+    width: 95%;
+    min-height: 180px;
+    margin: 0 auto}
+#main-content h3{
+    font-size: 1.75em;
+    line-height: 1.3em;
+    font-weight: normal;
+    color: #77181c;
+    padding-bottom: 30px}
+#bar-cookie{ display: none}    
+.page-note{
+    width: 95%;
+    height: 480px;
+    margin: 10px auto 30px auto;}
+.box-pageleft,
+.box-pageright{
+    float: none;
+    width: 95%}
+.box-pageright img{ 
+    width: 100%;
+    margin: 0 auto }
+.box-pageright span{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px}
+.table-head,
+.mytable{
+    display: none}
+#mobile-list{ 
+    display: block}
+#mobile-list h5{
+    font-size: 1em;
+    line-height: 1.5em;
+    color: rgb(132,37,41);
+    padding-bottom: 15px}    
+#mobile-list span{ font-weight: bold}
+#mobile-list img{
+    border: 2px solid #e1e1e1}    
+    
+#box-links{
+    width: 100%;
+    height: 300px;
+    background: none;
+    background-size: contain;
+    margin: -20px auto 0 auto;
+    padding: 0 30px;
+    word-wrap: break-word;
+    word-break: break-all}
+#box-links ul{
+    background-size: contain} 
+.comingsoon{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 60px auto}    
+#world-map{ display: none}
+.box_customer{
+    display: block;
+    width: 100%;
+    margin: 0 auto 20px auto;
+    padding: 15px;
+    border-bottom: 2px solid #e1e1e1}
+#area-01 h5,
+#area-02 h5,
+#area-03 h5,
+#area-04 h5,
+#area-05 h5{ 
+    display: block;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    padding-bottom: 10px}
+.box_customer h6{
+    padding: 5px 0}    
+.customer_info li{
+    padding: 2px 0;
+    border-bottom: none}
+.box_customer span{ padding-left: 0}    
 }
 
 
 @media screen and (-webkit-min-device-pixel-ratio: 2),
 screen and (min--moz-device-pixel-ratio: 2)
-{ header h1{background:url(../images/logo-s@2x.png) no-repeat; background-size:230px 35px} }
+{ #mobile-nav,
+  #mobile-nav:hover,
+  #mobile-nav:visited{
+    background:url(../images/btn_nav-mobile.png) no-repeat; 
+    background-size:42px 42px}  
+}

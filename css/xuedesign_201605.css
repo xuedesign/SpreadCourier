@@ -612,6 +612,7 @@ h1 a{
     vertical-align: middle;
     background: #eeecec;
     border: 1px solid #FFF}
+#mobile-list{ display: none}
 
 #world-map{
     display: block;
@@ -632,7 +633,7 @@ h1 a{
     margin: 0}
 #world-map .countryname li{
     font-size: .938em;
-    line-height: .2em;
+    line-height: .6em;
     color: #77181c;
     list-style: none;
     border-bottom: none}
