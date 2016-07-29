@@ -45,6 +45,10 @@ img::selection { background: transparent}
 img::-moz-selection { background: transparent}
 .clean{ clear:both}
 .hidden{ display:none}
+.txt-em{
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #77181c}
 
 /*
 =====================================
