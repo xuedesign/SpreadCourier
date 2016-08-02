@@ -380,7 +380,7 @@ h1 a{
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
-    background: url(../images/pic_logo-s.png) 40px 55px no-repeat}
+    background: url(../images/pic_logo-s.png) 40px 50px no-repeat}
 #foot-contact{
     display: block;
     float: right;
@@ -420,7 +420,8 @@ h1 a{
     text-indent: 100%;
     white-space: normal;
     overflow: hidden;
-    font-size: 0}
+    font-size: 0;
+    line-height: 100px}
 #subnav ul{
     display: block;
     width: 180px}
