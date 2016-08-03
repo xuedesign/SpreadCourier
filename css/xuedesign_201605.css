@@ -655,12 +655,12 @@ h1 a{
     top:-35px;
     left: 429px}
 #world-map .country-asia-01{
-    top:-70px;
+    top:-85px;
     right: 240px;
     text-align: right}
 #world-map .country-asia-02{
     top:-60px;
-    right: 80px}
+    right: 30px}
 
 .mapline{
     display: block;
@@ -751,7 +751,7 @@ h1 a{
 
 .box_customer{ 
     display: none;
-    width: 320px}
+    width: 415px/*320px*/}
 .box_customer .flag{
     display: block;
     float: left;
