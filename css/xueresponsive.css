@@ -266,8 +266,9 @@ footer{
     display: block;
     width: 85%;
     margin: 0 auto 20px auto;
-    padding: 15px;
-    border-bottom: 2px solid #e1e1e1}
+    padding: 15px}
+.box_customer ul{
+    border-bottom: 2px dashed #e1e1e1}
 #area-01 h5,
 #area-02 h5,
 #area-03 h5,
@@ -425,8 +426,9 @@ footer{
     display: block;
     width: 85%;
     margin: 0 auto 20px auto;
-    padding: 15px;
-    border-bottom: 2px solid #e1e1e1}
+    padding: 15px}
+.box_customer ul{
+    border-bottom: 2px dashed #e1e1e1}    
 #area-01 h5,
 #area-02 h5,
 #area-03 h5,
@@ -620,8 +622,9 @@ footer{
     display: block;
     width: 85%;
     margin: 0 auto 20px auto;
-    padding: 15px;
-    border-bottom: 2px solid #e1e1e1}
+    padding: 15px}
+.box_customer ul{
+    border-bottom: 2px dashed #e1e1e1}    
 #area-01 h5,
 #area-02 h5,
 #area-03 h5,
@@ -814,8 +817,9 @@ footer{
     display: block;
     width: 100%;
     margin: 0 auto 20px auto;
-    padding: 15px;
-    border-bottom: 2px solid #e1e1e1}
+    padding: 15px}
+.box_customer ul{
+    border-bottom: 2px dashed #e1e1e1}    
 #area-01 h5,
 #area-02 h5,
 #area-03 h5,
