@@ -36,7 +36,7 @@ h1 a{
     padding: 25px 0 40px 0;
     text-align: center}    
 #service-item{
-    width: 90%;
+    width: 88%/*90%*/;
     margin: 46px auto 30px auto;
     padding-left: 100px}
 .serviceitem-01{ margin: 0 50px 40px 24px}
