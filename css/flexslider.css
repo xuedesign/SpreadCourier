@@ -113,8 +113,7 @@ html[xmlns] .slides {display: block;}
     width: 11px; 
     height: 11px; 
     display: block; 
-    background: #83725a; 
-    background: rgb(131,114,90); 
+    background: #aaaaaa; 
     cursor: pointer; 
     text-indent: -9999px; 
     -webkit-border-radius: 20px; 
@@ -123,11 +122,9 @@ html[xmlns] .slides {display: block;}
     border-radius: 20px; 
     box-shadow: inset 0 0 3px rgba(0,0,0,0.5);}
 .flex-control-paging li a:hover { 
-    background: #c8003f; 
-    background: rgba(200,0,63,0.7) }
+    background: #4AC0F0; }
 .flex-control-paging li a.flex-active { 
-    background: #c8003f; 
-    background: rgba(200,0,63,0.9); 
+    background: #4AC0F0;
     cursor: default; }
 
 .flex-control-thumbs {margin: 5px 0 0; position: static; overflow: hidden;}

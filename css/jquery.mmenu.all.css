@@ -271,7 +271,7 @@ li.mm-vertical.mm-opened > .mm-panel {
   right: 20px; }
 
 .mm-menu {
-  background: RGB(113,26,30)/*#f3f3f3*/;
+  background: rgb(16,126,174)/*#f3f3f3*/;
   color: rgba(256, 256, 256, .9); }
   .mm-menu .mm-navbar {
     border-color: rgba(256, 256, 256, 0.1); }
