@@ -39,8 +39,8 @@ a:visited {text-decoration:none; color:#8c8c8c}
 a:hover {text-decoration:underline; color:#6ACBF5}
 form{margin:0; padding:0}
 image{border:0}
-::selection { background: #7d3a3d; color: #fff}
-::-moz-selection { background: #7d3a3d; color: #fff}
+::selection { background: #107FAF; color: #fff}
+::-moz-selection { background: #107FAF; color: #fff}
 img::selection { background: transparent}
 img::-moz-selection { background: transparent}
 .clean{ clear:both}
@@ -518,6 +518,39 @@ h1 a{
     background: url(../images/bg_logo.png) bottom right no-repeat}
 .page-article{
     padding-bottom: 20px}
+.page-article img{
+    display: block;
+    width: 90%;
+    margin: 0 auto 10px auto}
+.info-right{
+    display: block;
+    float: right;
+    width: 30%}
+.info-right img{
+    display: block;
+    width: 60%;
+    height: auto}
+.info-left{
+    display: block;
+    float: left;
+    width: 65%}
+.btn_topage{
+    display: block;
+    width: 45%;
+    margin: 30px auto;
+    padding: 15px 0;
+    background: #e1e1e1;
+    color: #fff;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;}
+.btn_topage:hover{
+    background: #107FAF;
+    color: #fff;
+    text-decoration: none;
+    transition: .5s}
+
 #bar-cookie{
     text-align: right;
     font-size: .813em;
