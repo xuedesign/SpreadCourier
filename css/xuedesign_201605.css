@@ -329,25 +329,25 @@ h1 a{
     margin: 0 auto;
     background: url(../images/icon_service-item.png) no-repeat;
     margin-bottom: 10px}
-.serviceitem-01>span{
-    background-position: 0 0}
-.serviceitem-01:hover>span{
-    background-position: 0 -161px}
 .serviceitem-02>span{
-    background-position: -161px 0}
+    background-position: 0 0}
 .serviceitem-02:hover>span{
-    background-position: -161px -161px}
+    background-position: 0 -161px}
 .serviceitem-03>span{
-    background-position: -322px 0}
+    background-position: -161px 0}
 .serviceitem-03:hover>span{
-    background-position: -322px -161px}
+    background-position: -161px -161px}
 .serviceitem-04>span{
-    background-position: -483px 0}
+    background-position: -322px 0}
 .serviceitem-04:hover>span{
-    background-position: -483px -161px}
+    background-position: -322px -161px}
 .serviceitem-05>span{
-    background-position: -644px 0}
+    background-position: -483px 0}
 .serviceitem-05:hover>span{
+    background-position: -483px -161px}
+.serviceitem-01>span{
+    background-position: -644px 0}
+.serviceitem-01:hover>span{
     background-position: -644px -161px}
 
 .float {
@@ -540,7 +540,7 @@ h1 a{
     margin: 30px auto;
     padding: 15px 0;
     background: #e1e1e1;
-    color: #fff;
+    color: #107EAE;
     text-align: center;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;

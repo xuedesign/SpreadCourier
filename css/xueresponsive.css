@@ -140,7 +140,8 @@ h1 a{
     right: 140px}
 .pot-asia-02{
     top:-25px;
-    right: 80px}    
+    right: 80px}
+.btn_topage{ width: 65%}
 }
 
 /*
@@ -189,7 +190,9 @@ h1 a{
 .flex-direction-nav .flex-prev { display: none}
 .flex-direction-nav .flex-next { display: none}
 #banner-text{
-    padding: 70px 15px 0 15px}    
+    padding: 70px 15px 0 15px}
+#banner-text.our-service{
+    padding-top: 35px}    
 #banner-pic{
     background-position: right}
 #banner-pic.banner-02,
@@ -282,7 +285,8 @@ footer{
     padding: 5px 0}    
 .customer_info li{
     padding: 2px 0;
-    border-bottom: none}    
+    border-bottom: none}
+.btn_topage{ width: 75%}    
 }
 
 /*
@@ -332,7 +336,9 @@ h1 a{
 .flex-direction-nav .flex-next { display: none}
 #banner-text{
     width: 40%;
-    padding: 70px 15px 0 15px}    
+    padding: 70px 15px 0 15px}
+#banner-text.our-service{
+    padding-top: 35px}     
 #banner-pic{
     width: 60%;
     background-position: right}
@@ -362,7 +368,7 @@ h1 a{
 footer{
     height: 145px;
     padding-top: 20px;
-    background: url(../images/bg_footer.png) repeat-x, RGB(55,63,87)}    
+    background: url(../images/bg_footer.png) repeat-x, RGB(35,151,202)}    
 #box-down h3{
     float: none;
     width: 100%;
@@ -442,7 +448,8 @@ footer{
     padding: 5px 0}    
 .customer_info li{
     padding: 2px 0;
-    border-bottom: none}  
+    border-bottom: none}
+.btn_topage{ width: 75%}    
 }
 
 
@@ -508,7 +515,12 @@ h1 a{
     font-size: 2em}
 #banner-text p{
     font-size: .875em;
-    line-height: 1.2em}    
+    line-height: 1.2em}
+#banner-text.our-service{ 
+    height: 95px;
+    padding: 8px 15px 0 5px}    
+#banner-text.our-service p{
+    font-size: .75em;}     
 #banner-pic{
     width: 100%;
     background-position: right}
@@ -538,7 +550,7 @@ h1 a{
 footer{
     height: 155px;
     padding-top: 20px;
-    background: url(../images/bg_footer.png) repeat-x, RGB(55,63,87)}    
+    background: url(../images/bg_footer.png) repeat-x, RGB(35,151,202)}    
 #box-down h3{
     float: none;
     width: 100%;
@@ -639,7 +651,16 @@ footer{
 .customer_info li{
     padding: 2px 0;
     border-bottom: none}
-.box_customer span{ padding-left: 0}        
+.box_customer span{ padding-left: 0}
+.btn_topage{ width: 100%}    
+
+#main-content h4{
+    line-height: 1.5em;
+    margin-bottom: 15px}
+.info-right,
+.info-left{
+    float: none;
+    width: 100%}    
 }
 
 /*
@@ -704,7 +725,13 @@ h1 a{
     font-size: 1.8em}
 #banner-text p{
     font-size: .813em;
-    line-height: 1.2em}    
+    line-height: 1.2em}
+#banner-text.our-service{ 
+    height: 105px;
+    padding: 8px 15px 0 5px}    
+#banner-text.our-service p{
+    font-size: .75em;}
+    
 #banner-pic{
     width: 100%;
     background-position: right}
@@ -734,7 +761,7 @@ h1 a{
 footer{
     height: 155px;
     padding-top: 20px;
-    background: url(../images/bg_footer.png) repeat-x, RGB(55,63,87)}    
+    background: url(../images/bg_footer.png) repeat-x, RGB(35,151,202)}    
 #box-down h3{
     float: none;
     width: 100%;
@@ -834,7 +861,12 @@ footer{
 .customer_info li{
     padding: 2px 0;
     border-bottom: none}
-.box_customer span{ padding-left: 0}    
+.box_customer span{ padding-left: 0}
+.btn_topage{ width: 100%}
+.info-right,
+.info-left{
+    float: none;
+    width: 100%}       
 }
 
 
