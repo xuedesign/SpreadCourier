@@ -1,0 +1,40 @@
+﻿<div class="customer_info">
+                    <div class="flag">
+                        <img src="images/icon_Flag-Taiwan.png" alt="*"> <strong>Taiwan</strong>
+                        <br class="clean"></div>
+                    <ul>
+                        <li>TPE Office: <!--<br>NO.11, REN AI 2ND ST., DAYUAN DIST., TAOYUAN CITY 337, TAIWAN (R.O.C.)--></li>
+                        <!--<li>Tel: 886-3-3933076</li>
+                        <li>Fax: 886-3-3933092</li>
+                        <li>Cell Phone: +886-921-597081</li>-->
+                        <li>E-mail: <a href="mailto:kevin@spreadcourier.com ">kevin@spreadcourier.com </a>
+                        <br>
+                        <!--<span><a href="mailto:Kevin.lai@spreadcourier.com">Kevin.lai@spreadcourier.com</a></span><br>-->
+                        <span><a href="mailto:team@spreadcourier.com">team@spreadcourier.com</a></span><br>
+                        <!--<span><a href="mailto:info@spreadcourier.com">info@spreadcourier.com</a></span></li>-->
+                    </ul>
+                    
+                    <div class="flag">
+                        <img src="images/icon_Flag-China.png" alt="*"> <strong>China</strong>
+                        <br class="clean"></div>
+                    <ul>
+                        <li>Beijing Office:</li>
+                        <li>E-mail: <a href="mailto:Hannah@spreadcourier.com">Hannah@spreadcourier.com</a>
+                        <br>
+                        <span><a href="mailto:team@spreadcourier.com">team@spreadcourier.com</a></span></li>
+                        <li>SHA Office:</li>
+                        <li>E-mail: <a href="mailto:Jozey@spreadcourier.com">Jozey@spreadcourier.com</a>
+                        <br>
+                        <span><a href="mailto:team@spreadcourier.com">team@spreadcourier.com</a></span></li>
+                    </ul>
+                    
+                    <div class="flag">
+                        <img src="images/icon_Flag-Hong-Kong.png" alt="*"> <strong>Hong Kong</strong>
+                        <br class="clean"></div>
+                    <ul>
+                        <li>Hong Kong Office: </li>
+                        <li>E-mail: <a href="mailto:info@spreadcourier.com">info@spreadcourier.com</a>
+                        <br>
+                        <span><a href="mailto:team@spreadcourier.com">team@spreadcourier.com</a></span></li>
+                    </ul>
+                </div>
