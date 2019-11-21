@@ -23,11 +23,13 @@ Large devices / Desktops 960
     width:95%;
     margin: 0 auto}
 h1 a{
-    width: 15%;
+    width: 20%;
     height: 63px;
     background-size: contain}
 #main-nav{
-    margin-top: 30px}    
+    margin-top: 30px}
+#main-nav ul{
+    right: 10px}        
 #banner{
     height:95%}
 #banner-main{
@@ -165,8 +167,8 @@ Medium devices / Tablets 768
 header{
     height: 80px}    
 h1 a{
-    width: 15%;
-    height: 50px;
+    width: 25%;
+    height: 60px;
     background-size: contain}
 #main-nav{
     display: none}
@@ -310,7 +312,7 @@ Small devices / Small Tablets &　Phone
 header{
     height: 80px}    
 h1 a{
-    width: 30%;
+    width: 33%;
     height: 40px;
     background-size: contain}
 #main-nav{
@@ -474,7 +476,7 @@ Extra small devices / Small Phone
 header{
     height: 80px}    
 h1 a{
-    width: 30%;
+    width: 45%;
     height: 50px;
     background-size: contain}
 #main-nav{
@@ -684,7 +686,7 @@ Extra small devices / old Small Phone
 header{
     height: 80px}    
 h1 a{
-    width: 38%;
+    width: 45%;
     height: 50px;
     background-size: contain}
 #main-nav{
